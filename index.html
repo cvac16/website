@@ -1,0 +1,105 @@
+<DOCTYPE! html>
+    <html>
+    <head>
+    <title>My Planet</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="planets.css">
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intital-scale=1">
+
+         </head>
+        <body>
+            <section>
+    <h1>
+    New Planet Discovered!      
+ </h1>
+       <h2>
+       What Scientists Have Found Out About Planet Hunter    
+                </h2> </section>
+            <div class="container">
+                
+                <!-- Buttons -->
+                <div class="col-md-4" id="buttonpart">
+                     <div id="planet"><h3>    
+            What is Hunter Made of?
+                </h3>
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#made">Click</button>
+                    </div>
+                     <div id="planet"><h3>
+            Where is Hunter?
+                </h3>
+               <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#where">Click</button>
+                    </div>
+                    <div id="planet"> <h3>
+            Life
+            </h3>
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#life">Click</button>
+                    </div>
+                     <div id="planet"><h3>
+             Size   
+            </h3> 
+               <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#size">Click</button>
+                    </div>
+                 <div id="planet"> <h3>
+                    Other Facts 
+                    </h3>
+                  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#facts">Click</button> 
+               <div>
+                     <h3>
+                     Click to See the Current Year of Hunter!
+                     </h3>
+                     <button onclick= "myFunction()" class="btn btn-info" >Click</button>
+                   <script>
+                   function myFunction(){
+                       var x= Math.ceil(Math.random()*5000);
+                       var y = "The current year of Hunter is: " + x;
+                       document.getElementById('years').innerHTML = y;
+                   }
+                   </script>
+                     </div>
+                     </div>
+                    </div>
+                
+                <!-- Text -->
+                <div class="col-md-6" id="textpart">
+                  <div id="made" class="collapse">> 
+                Similar to most planets, Hunter is made up of rock. There are craters and volcanoes throughout Hunter, and there are also streams of water along the planet. 
+                </div>
+               
+                <div id="where" class="collapse">>
+                Hunter is in the Forest Galaxy which is way beyond Pluto. This galaxy is home to many stars, and the Tree Star is where Hunter gets its daylight from. Scientists have also just recently discovered this galaxy so there isn't much known about the Forest Galaxy. 
+                </div>
+              
+                <div id="life" class="collapse">>
+              The coolest part about Hunter: it has life; including creatures that we like to call aliens! Aliens are able to live on the planet because of reasonable temperatures(Average:62F), water, and an atmosphere. These aliens are about 3 feet tall and are all dark blue in color. They have one big eye on the middle of there face and talk to each other in high pitch screeches. The aliens drink lots of water from the streams and tend to live by them. Scientists have predicted that about 500 of these aliens live on Planet Hunter.
+                </div>
+                <div id="size" class="collapse">>
+                Hunter's radius is 1,000 mi, bigger than the Pluto but smaller than Mercury which makes it the smallest planet.
+                </div>
+                <div id="facts" class="collapse">> 
+                   Hunter has no rings and no moons. It was discovered by Charlie Vachris on July 4, 2018 and is still under lots of research to learn more about it.    
+                   </div>
+                    
+                    
+                    <div id="years"></div>
+                </div>
+                <div class="col-md-3" id="picture">
+                    <img src="images/planet.jpg" alt="Hunter The Planet" width="400" height="300">
+                    </div>
+            </div>
+        </body>
+    </html>
+</DOCTYPE!>
