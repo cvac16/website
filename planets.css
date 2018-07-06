@@ -1,0 +1,53 @@
+#buttonpart{
+    background-color: #290066;
+}
+section{
+    background-image:url("images/Amazing-Outer-Space-Background.jpg");
+    border: 10px dotted yellow;
+    padding: 25px;
+    margin: 10px;
+}
+h1, h2 {
+    color: blue;
+    text-align: center;
+}
+html,body {
+    background-image: url("images/spacebackground.gif");
+}
+body {
+    color: aqua;
+    font-size: 20px;
+}
+
+h1, h2 {
+    font-family: "Courier New", Times, monospace;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 48px;
+}
+h3{
+    color:lightblue
+}
+
+section {
+    background-image:url("images/Amazing-Outer-Space-Background.jpg");
+    border: 10px dotted yellow;
+    padding: 25px;
+    margin: 10px;
+}
+#buttonpart{
+    padding: 25px;
+    margin-left: -200px;
+    border: 10px groove aqua;
+    background-color: #290066;
+}
+img{
+    border: 15px ridge blue;
+    align-content: center
+}
+
+
+
